@@ -5,7 +5,7 @@ import Address from '../Address/Address';
 
 function Routs() {
   return (
-    <Switch>
+      <Switch>
         <Route exact path="/">
           <News />
         </Route>

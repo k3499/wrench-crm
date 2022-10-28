@@ -1,0 +1,42 @@
+.sidebar{
+    width: 300px;
+    -webkit-box-shadow: 6px 0px 8px -7px rgb(2 0 96 / 25%);
+    -moz-box-shadow: 6px 0px 8px -7px rgba(2 0 96 / 0.25);
+    box-shadow: 6px 0px 8px -7px rgb(2 0 96 / 25%);
+    overflow-y: auto;
+}
+.nav-title{
+    margin: 25px 0 0 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1C1C1E;
+}
+.nav{
+    margin: 32px 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+.nav__link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1C1C1E;
+    text-decoration: none;
+    text-indent: 48px;
+    height: 32px;
+    display: block;
+    margin-bottom: 40px;
+}
+.nav__link_active{
+    border-right:3px solid #4F27BF;
+}
+.nav__link-home{
+    background: url(../../images/home.svg) no-repeat 0;
+}
+.nav__link-lupa{
+    background: url(../../images/lupa.svg) no-repeat 0;
+}

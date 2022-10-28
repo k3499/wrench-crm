@@ -1,12 +1,17 @@
 import React from 'react';
 import './Sidebar.css';
-import { Link } from 'react-router-dom'; 
+import { NavLink } from 'react-router-dom'; 
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-        <Link exact to="/">Главная</Link>
-        <Link to="/adress">Адреса</Link>
+    <div className='sidebar'>
+      <p className='nav-title'>Меню</p>
+      <nav>
+        <ul className='nav'>
+          <li className='nav__item'><NavLink exact to="/" className='nav__link nav__link-home' activeClassName="nav__link_active">Главная</NavLink></li>
+          <li className='nav__item'><NavLink to="/adress" className='nav__link nav__link-lupa' activeClassName="nav__link_active">Адреса</NavLink></li>
+        </ul>
+      </nav>
     </div>
   );
 }
