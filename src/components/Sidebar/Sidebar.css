@@ -4,6 +4,11 @@
     -moz-box-shadow: 6px 0px 8px -7px rgba(2 0 96 / 0.25);
     box-shadow: 6px 0px 8px -7px rgb(2 0 96 / 25%);
     overflow-y: auto;
+    max-height: 100vh;
+    position: fixed;
+    background: #fff;
+    padding: 80px 0 0 32px;
+    box-sizing: border-box;
 }
 .nav-title{
     margin: 25px 0 0 0;
@@ -39,4 +44,22 @@
 }
 .nav__link-lupa{
     background: url(../../images/lupa.svg) no-repeat 0;
+}
+.nav__link-tables{
+    background: url(../../images/tables.svg) no-repeat 0;
+}
+.nav__link-clendar{
+    background: url(../../images/calendar.svg) no-repeat 0;
+}
+.nav__link-maps{
+    background: url(../../images/map.svg) no-repeat 0;
+}
+.nav__link-widgets{
+    background: url(../../images/widgets.svg) no-repeat 0;
+}
+.nav__link-setting{
+    background: url(../../images/settings.svg) no-repeat 0;
+}
+.nav__link-exit{
+    background: url(../../images/exit.svg) no-repeat 0;
 }

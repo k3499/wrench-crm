@@ -1,0 +1,33 @@
+.news{
+    padding: 32px;
+}
+.news__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1C1C1E;
+}
+.news__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 0;
+    margin: 16px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C1E;
+}
+.news__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding: 0;
+    margin: 24px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
