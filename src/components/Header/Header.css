@@ -1,0 +1,29 @@
+.header{
+    background: #4F27BF;
+}
+.header__container{
+    max-width: 1440px;
+    height: 80px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-indent: 72px;
+}
+.header__logo{
+    background: url(../../images/logo.svg) no-repeat 0;
+}
+.header__user{
+    background: url(../../images/user.svg) no-repeat 0;
+}
