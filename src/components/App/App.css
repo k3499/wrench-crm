@@ -7,17 +7,12 @@
 .main{
   min-height:100%;
   max-width: 1440px;
-  /*display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas: ". content";*/
 }
 .wrapper{
   height: calc(100% - 80px);
-  height: -o-calc(100% - 80px); /* opera */
-  height: -webkit-calc(100% - 80px); /* google, safari */
-  height: -moz-calc(100% - 80px); /* firefox */
+  height: -o-calc(100% - 80px); 
+  height: -webkit-calc(100% - 80px);
+  height: -moz-calc(100% - 80px);
 }
 .content{
   padding: 80px 0 0 300px;

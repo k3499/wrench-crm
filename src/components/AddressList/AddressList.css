@@ -1,0 +1,38 @@
+.address-list__wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(2, 0, 97, 0.25);
+    border-radius: 10px;
+    padding: 24px;
+    margin: 32px 0 0 0;
+}
+.address-list__title{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #D7D7D7;
+
+}
+.address-list__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.address-list__item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 16px 0;
+    border-bottom: 1px solid #D7D7D7;
+}
+.address-list__item:last-of-type{
+    border-bottom: 0;
+}
